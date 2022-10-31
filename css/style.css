@@ -1,0 +1,156 @@
+body {
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    min-height: 100vh;
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+    font-family: 'Poppins';
+}
+
+.cabecalhoPrincipal .container {
+    padding: 41px 165px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhoPrincipal .container .social-media {
+    width: 183px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corpoPrincipal .container {
+    padding: 20px 165px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corpoPrincipal .container .left-align .about {
+    width: 419px;
+}
+
+.corpoPrincipal .container .left-align .about h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F9F9F9;
+}
+
+.corpoPrincipal .container .left-align .about h2 {
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 109%;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    margin: 14px auto 25px;
+}
+
+.corpoPrincipal .container .left-align .about h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #F9F9F9;
+}
+
+.corpoPrincipal .container .left-align .buttons {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.corpoPrincipal .container .left-align .buttons .btn {
+    transform: skew(-20deg);
+}
+
+.btn-span {
+    transform: skew(20deg);
+}
+
+.corpoPrincipal .container .left-align .buttons .movie-button {
+    width: 225px;
+    height: 45px;
+    background-color: #628E75;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpoPrincipal .container .left-align .buttons .movie-button img {
+    margin-right: 14px;
+}
+
+.corpoPrincipal .container .left-align .buttons .trailer-button {
+    width: 225px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #658E76;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    margin-left: 10px;
+}
+
+@media(max-width: 1030px) {
+    .corpoPrincipal .container {
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width: 768px) {
+    .cabecalhoPrincipal .container {
+        padding: 20px 25px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .corpoPrincipal .container {
+        padding: 20px 20px 70px;
+    }
+
+    .corpoPrincipal .container .left-align .about {
+        width: 100%;
+    }
+
+    .corpoPrincipal .container .left-align .about h1 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .corpoPrincipal .container .left-align .about h2 {
+        font-size: 56px;
+        line-height: 61px;
+    }
+
+    .corpoPrincipal .container .left-align .about h3 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .corpoPrincipal .container .left-align .buttons {
+        width: 100%;
+    }
+
+    .corpoPrincipal .container .left-align .buttons .trailer-button {
+        display: none;
+    }
+
+    .corpoPrincipal .container .right-align {
+        width: 400px;
+    }
+
+    .corpoPrincipal .container .right-align img {
+        width: 100%;
+        height: auto;
+    }
+}
